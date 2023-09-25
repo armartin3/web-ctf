@@ -17,7 +17,7 @@ import { ActivityLocation } from '../activitylocation';
     </form>
   </section>
   <section class="results">
-    <app-activity-location></app-activity-location>
+    <app-activity-location [activityLocation]="activityLocation"></app-activity-location>
   </section>
   `,
   styleUrls: ['./home.component.css']
@@ -26,14 +26,11 @@ import { ActivityLocation } from '../activitylocation';
 export class HomeComponent {
   readonly baseUrl = 'https://angular.io/assets/images/tutorials/faa';
 
-  housingLocation: ActivityLocation = {
+  activityLocation: ActivityLocation = {
     id: 9999,
     name: 'Test Home',
     city: 'Test city',
     state: 'ST',
     photo: `${this.baseUrl}/example-house.jpg`,
-    availableUnits: 99,
-    wifi: true,
-    laundry: false,
   };
 }

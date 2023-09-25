@@ -1,5 +1,7 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { ActivityLocation } from '../activitylocation';
+
 
 @Component({
   selector: 'app-activity-location',
@@ -13,5 +15,5 @@ import { CommonModule } from '@angular/common';
   styleUrls: ['./activity-location.component.css']
 })
 export class ActivityLocationComponent {
-
+  @Input() activityLocation!: ActivityLocation;
 }
