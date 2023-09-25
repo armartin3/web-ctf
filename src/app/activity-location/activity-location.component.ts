@@ -8,9 +8,11 @@ import { ActivityLocation } from '../activitylocation';
   standalone: true,
   imports: [CommonModule],
   template: `
-    <p>
-      activity-location works!
-    </p>
+  <section class="listing">
+    <img class="listing-photo" [src]="activityLocation.photo" alt="Exterior photo of {{activityLocation.name}}">
+    <h2 class="listing-heading">{{ activityLocation.name }}</h2>
+    <p class="listing-location">{{ activityLocation.city}}, {{activityLocation.state }}</p>
+  </section>
   `,
   styleUrls: ['./activity-location.component.css']
 })
