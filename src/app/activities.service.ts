@@ -12,73 +12,73 @@ export class ActivitiesService {
   activityLocationList: ActivityLocation[] = [
     {
       id: 0,
-      name: 'Acme Fresh Start activity',
-      city: 'Chicago',
-      state: 'IL',
-      photo: `${this.baseUrl}/bernard-hermant-CLKGGwIBTaY-unsplash.jpg`,
+      name: 'DeBucks Corn Maze',
+      city: 'Belleville',
+      state: 'MI',
+      photo: `/assets/cornmaze.png`,
     },
     {
       id: 1,
-      name: 'A113 Transitional activity',
-      city: 'Santa Monica',
-      state: 'CA',
-      photo: `${this.baseUrl}/brandon-griggs-wR11KBaB86U-unsplash.jpg`,
+      name: 'LEGOLAND Discovery Center',
+      city: 'Auburn Hills',
+      state: 'MI',
+      photo: `/assets/legoland.jpg`,
     },
     {
       id: 2,
-      name: 'Warm Beds activity Support',
-      city: 'Juneau',
-      state: 'AK',
-      photo: `${this.baseUrl}/i-do-nothing-but-love-lAyXdl1-Wmc-unsplash.jpg`,
+      name: 'GM Heritage Center',
+      city: 'Sterling Heights',
+      state: 'MI',
+      photo: `/assets/heritage-center.png`,
     },
     {
       id: 3,
-      name: 'Homesteady activity',
-      city: 'Chicago',
-      state: 'IL',
-      photo: `${this.baseUrl}/ian-macdonald-W8z6aiwfi1E-unsplash.jpg`,
+      name: 'Sterling Heights Nature Center',
+      city: 'Sterling Heights',
+      state: 'MI',
+      photo: `/assets/nature-center.jpg`,
     },
     {
       id: 4,
-      name: 'Happy Homes Group',
-      city: 'Gary',
-      state: 'IN',
-      photo: `${this.baseUrl}/krzysztof-hepner-978RAXoXnH4-unsplash.jpg`,
-    },
-    {
-      id: 5,
-      name: 'Hopeful Apartment Group',
-      city: 'Oakland',
-      state: 'CA',
-      photo: `${this.baseUrl}/r-architecture-JvQ0Q5IkeMM-unsplash.jpg`,
-    },
-    {
-      id: 6,
-      name: 'Seriously Safe Towns',
-      city: 'Oakland',
-      state: 'CA',
-      photo: `${this.baseUrl}/phil-hearing-IYfp2Ixe9nM-unsplash.jpg`,
-    },
-    {
-      id: 7,
-      name: 'Hopeful activity Solutions',
-      city: 'Oakland',
-      state: 'CA',
-      photo: `${this.baseUrl}/r-architecture-GGupkreKwxA-unsplash.jpg`,
+      name: 'Detroit Zoo',
+      city: 'Royal Oak',
+      state: 'MI',
+      photo: `/assets/zoo.jpg`,
     },
     {
       id: 8,
-      name: 'Seriously Safe Towns',
-      city: 'Oakland',
-      state: 'CA',
-      photo: `${this.baseUrl}/saru-robert-9rP3mxf8qWI-unsplash.jpg`,
+      name: 'Historical Society Museum',
+      city: 'Royal Oak',
+      state: 'MI',
+      photo: `assets/museum.jpg`,
+    },
+    {
+      id: 6,
+      name: 'Yates Cider Mill',
+      city: 'Rochester Hills',
+      state: 'MI',
+      photo: `/assets/cider-mill.jpg`,
+    },
+    {
+      id: 7,
+      name: 'Detroit Institute of Arts',
+      city: 'Detroit',
+      state: 'MI',
+      photo: `/assets/arts.jpg`,
+    },
+    {
+      id: 5,
+      name: 'Springdale Golf Course',
+      city: 'Birmingham',
+      state: 'MI',
+      photo: `/assets/golf.jpg`,
     },
     {
       id: 9,
-      name: 'Capital Safe Towns',
-      city: 'Portland',
-      state: 'OR',
-      photo: `${this.baseUrl}/webaliser-_TPTXZd9mOo-unsplash.jpg`,
+      name: 'Museum at Van Hoosen Farm',
+      city: 'Rochester Hills',
+      state: 'MI',
+      photo: `/assets/museum2.jpg`,
     }
   ];
 
@@ -91,6 +91,6 @@ export class ActivitiesService {
   }
 
   submitApplication(firstName: string, lastName: string, email: string) {
-    console.log(`Homes application received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`);
+    console.log(`RSVP received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`);
   }
 }
