@@ -89,4 +89,8 @@ export class ActivitiesService {
   getActivityLocationById(id: number): ActivityLocation | undefined {
     return this.activityLocationList.find(activityLocation => activityLocation.id === id);
   }
+
+  submitApplication(firstName: string, lastName: string, email: string) {
+    console.log(`Homes application received: firstName: ${firstName}, lastName: ${lastName}, email: ${email}.`);
+  }
 }
