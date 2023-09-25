@@ -14,7 +14,7 @@ import { RouterLink, RouterOutlet } from '@angular/router';
   template: `
   <main>
     <a [routerLink]="['/']">
-      <header class="brand-name"> <h1>Upcoming Activities</h1>
+      <header class="brand-name"> <h1>Activities Near Warren, MI</h1>
       </header>
     </a>
     <section class="content">

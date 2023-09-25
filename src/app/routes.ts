@@ -6,7 +6,7 @@ const routeConfig: Routes = [
     {
       path: '',
       component: HomeComponent,
-      title: 'Home page'
+      title: 'Activities Near Warren, MI'
     },
     {
       path: 'details/:id',
